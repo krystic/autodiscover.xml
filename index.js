@@ -84,5 +84,4 @@ app.use(function *fixContentType(next) {
 app.use(body());
 app.use(router.routes());
 app.use(router.allowedMethods());
-
 app.listen(process.env.PORT || 8000);
